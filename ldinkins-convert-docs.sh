@@ -14,6 +14,6 @@ pandoc -o $new.docx $FILE # Convert markdown to DOCX
 
 pandoc -o $new.odt $FILE # Convert markdown to ODT
 
-pandoc -V geometry:margin=1in -o $new.pdf $FILE # Convert markdown to PDF with widder margins
+pandoc -V geometry:margin=.3in -o $new.pdf $FILE # Convert markdown to PDF with widder margins
 
 echo "Converted $FILE to HTML, DOCX, ODT, PDF"
